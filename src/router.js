@@ -4,25 +4,29 @@ import Router from 'vue-router'
 vue.use(Router)
 
 export default new Router({
-  routers: [
+  routes: [
     {
       path: '/form',
       component: () => import('./views/form.vue')
     },
     {
-      path: './checkbox',
+      path: '/checkbox',
       component: () => import('./views/checkbox.vue')
     },
     {
-      path: './display',
+      path: '/display',
       component: () => import('./views/display.vue')
     },
     {
-      path: './table-render',
+      path: '/alert',
+      component: () => import('./views/alert.vue')
+    },
+    {
+      path: '/table-render',
       component: () => import('./views/table-render.vue')
     },
     {
-      path: './table-slot',
+      path: '/table-slot',
       component: () => import('./views/table-slot.vue')
     },
     {
