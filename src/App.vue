@@ -27,6 +27,12 @@
       <li>
         <router-link to="/tree">实战 7：树形控件 —— Tree</router-link>
       </li>
+      <li>
+        <router-link to="/tabs">tabs</router-link>
+      </li>
+      <li>
+        <router-link to="/collapse">collapse</router-link>
+      </li>
     </ul>
     <hr>
     <router-view></router-view>

@@ -38,6 +38,10 @@ export default new Router({
       component: () => import('./views/input-number.vue')
     },
     {
+      path: '/tabs',
+      component: () => import('./views/tabs.vue')
+    },
+    {
       path: '/',
       component: () => import('./views/index.vue')
     }
